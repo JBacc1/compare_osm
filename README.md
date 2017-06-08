@@ -2,6 +2,7 @@
 Compare deux fichiers OSM, l'un original, l'autre qui part du même et qui a été modifié à la main (sous JOSM, par exemple). Après comparaison, crée 3 fichiers de "diff" utilisé par le script to_renderer.py qui semi-automatise la réapplication de ces modifications.
 
 # Utilisation
+Nécessite les packages pyOsmData et osmxml_routines disponibles ici : https://github.com/JBacc1/pyOsmData
 
 `python compare_osm.py infile_pre.osm infile_post.osm [rw]`
 
